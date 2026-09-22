@@ -60,7 +60,7 @@ else:
 '''
 
 ## Question 6 : comapre a two no. and find gretest b/w them?
-
+'''
 num1 = int(input("Enter first Number: "))
 num2 = int(input("Enter second Number: "))
 if num1 > num2:
@@ -69,3 +69,14 @@ elif num2 > num1:
     print("The Num2 is Greater than Num1")
 else: 
     print("Both the numbers are Eqaul")
+'''
+
+## Question 7 : take values  of length and breath of a rectangle from user and check if it is square or not?
+
+length  = int(input("Enter length Size: "))
+breadth = int(input("Enter breadth Size: "))
+
+if length == breadth:
+    print("It is a Square")
+else: 
+    print("It is a Rectangle")
