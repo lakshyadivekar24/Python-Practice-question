@@ -47,6 +47,7 @@ else:
 
 ## Question 5 : comapre a 3 no. if all are equal then return sum of all if not than return sum and thrice of all??
 
+'''
 num1 = int(input("Enter first Number: "))
 num2 = int(input("Enter second Number: "))
 num3 = int(input("Enter third Number: "))
@@ -56,6 +57,15 @@ if num1 == num2 and num2 == num3:
 else: 
     thrice = 3 * (num1 + num2 + num3)
     print(f"The thrice of Sum of Num1 + Num2 + Num3: {thrice} ")
-    
-    
-    
+'''
+
+## Question 6 : comapre a two no. and find gretest b/w them?
+
+num1 = int(input("Enter first Number: "))
+num2 = int(input("Enter second Number: "))
+if num1 > num2:
+    print("The Num1 is Greater than Num2")
+elif num2 > num1:
+    print("The Num2 is Greater than Num1")
+else: 
+    print("Both the numbers are Eqaul")
