@@ -101,6 +101,7 @@ else:
 ## Question 9 : A student will not be allowed to sit in exam her attendance is less than 75% take following input from user number of
 #               classes held,number of clasees attend is student to sit in exam or not??
 
+'''
 classes_held = int(input("Enter the number of Classes Held: "))
 classes_attended = int(input("Enter the number of Classes Attended: "))
 
@@ -111,3 +112,22 @@ if attendance_Percentage >= 75:
     print("You are Eligible to Sit in Exams")
 else:
     print("You are Not Eligible to Sit in Exams")
+'''
+
+## Question 10 : Traffic light
+# Write a python program that will check for the following conditions:
+# * If the light is green – Car is allowed to go
+# * If the light is yellow – Car has to wait
+# * If the light is red – Car has to stop
+# * Other signal – unrecognized signal. Example black, blue, etc…
+
+color = input("Enter the Color of Traffic Light: ").lower()
+
+if color == "green":
+    print("Car is allowed to go")
+elif color == "yellow":
+    print("Car has to wait")
+elif color == "red":
+    print("Car has to Stop")
+else:
+    print("unrecognized Color")
