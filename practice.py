@@ -86,9 +86,8 @@ else:
 ## Question 8 : a company decided to give a bonus of 5% to employee if the year of service is more than 5 years ask user for 
 #               their salary and year of service and print the net bonus??
 
+'''
 exp = int(input("Enter the years of Experience: "))
-
-
 if exp > 5:
     Salary = int(input("Enter The Salary: "))
     bonus = Salary * 5/100 
@@ -97,3 +96,18 @@ if exp > 5:
     
 else:
     print("No Bonus")
+'''  
+
+## Question 9 : A student will not be allowed to sit in exam her attendance is less than 75% take following input from user number of
+#               classes held,number of clasees attend is student to sit in exam or not??
+
+classes_held = int(input("Enter the number of Classes Held: "))
+classes_attended = int(input("Enter the number of Classes Attended: "))
+
+attendance_Percentage = (classes_attended/classes_held) * 100
+print(f"You are Total Attendance is: {attendance_Percentage}%")
+
+if attendance_Percentage >= 75:
+    print("You are Eligible to Sit in Exams")
+else:
+    print("You are Not Eligible to Sit in Exams")
