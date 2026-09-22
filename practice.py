@@ -1,6 +1,7 @@
 ##Hello world
+'''
 print("hello world")
-
+'''
 ## wap to check user is eligible for vote or not??
 
 '''
@@ -12,7 +13,7 @@ else:
 '''
 
 ## wap to check no. is +ve or -ve??
-
+'''
 num1 = int(input("Enter a Number: "))
 if num1 > 0: 
     print("The Number is Positive")
@@ -20,3 +21,12 @@ elif num1 < 0:
     print("The number is Negative")
 else:
     print("The Number is Zero")
+'''
+
+## wap to check no. is even or not??
+
+num1 = int(input("Enter a Number: "))
+if num1 % 2 == 0: 
+    print('The number is Even')
+else:
+    print("The number is Odd")
