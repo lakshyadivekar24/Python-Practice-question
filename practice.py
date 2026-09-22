@@ -73,6 +73,7 @@ else:
 
 ## Question 7 : take values  of length and breath of a rectangle from user and check if it is square or not?
 
+'''
 length  = int(input("Enter length Size: "))
 breadth = int(input("Enter breadth Size: "))
 
@@ -80,3 +81,19 @@ if length == breadth:
     print("It is a Square")
 else: 
     print("It is a Rectangle")
+'''
+
+## Question 8 : a company decided to give a bonus of 5% to employee if the year of service is more than 5 years ask user for 
+#               their salary and year of service and print the net bonus??
+
+exp = int(input("Enter the years of Experience: "))
+
+
+if exp > 5:
+    Salary = int(input("Enter The Salary: "))
+    bonus = Salary * 5/100 
+    print(f"The Bonus the Employee gets from Company is : {bonus}Rs")
+    print(f"The Total net Salary the Employee gets from Company is : {bonus + Salary}Rs")
+    
+else:
+    print("No Bonus")
